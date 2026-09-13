@@ -1,0 +1,14 @@
+[
+  {
+    "name": "run_shell",
+    "description": "Run a shell command.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "command": {"type": "string"},
+        "path": {"type": "string"}
+      },
+      "required": ["command"]
+    }
+  }
+]
